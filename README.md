@@ -16,7 +16,7 @@ The shell implements standard POSIX commands internally to ensure cross-platform
 **Visual Demo:**
 > *Screenshot shows startup, verifying current directory, changing to `/tmp`, and printing a success message.*
 
-![Basic Navigation Demo](Screenshot 2025-12-07 211722.png)
+![Basic Navigation Demo](Screenshot 2025-12-07 211820.png)
 
 ---
 
