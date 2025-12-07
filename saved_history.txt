@@ -1,0 +1,4 @@
+echo "Command One"
+echo "Command Two"
+history
+history -w saved_history.txt
