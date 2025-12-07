@@ -52,7 +52,6 @@ The shell manually manages file descriptors to redirect streams, allowing users 
 This is the most complex feature. The shell chains multiple processes together, connecting the `stdout` of one command to the `stdin` of the next. On Windows, this is achieved using `subprocess` and temporary files/pipes, avoiding Unix-specific `fork()` calls.
 
 **Example Command:**
-```bash
 echo -e "apple\nbanana\ncherry" | grep "a" | wc -l
 **Visual Demo:**
 
