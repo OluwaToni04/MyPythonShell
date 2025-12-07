@@ -29,7 +29,7 @@ The `type` command is critical for understanding how the shell interprets inputs
 **Visual Demo:**
 > *Screenshot shows `type` identifying built-ins vs. external paths and handling missing commands in red.*
 
-![Type Command Demo](type_command.png)
+![Type Command Demo](type.png)
 
 ---
 
