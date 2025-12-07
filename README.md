@@ -57,7 +57,7 @@ echo -e "apple\nbanana\ncherry" | grep "a" | wc -l
 
 > *Screenshot shows the shell processing data through three distinct stages to calculate a final count.*
 
-![Pipelines Demo](pipelines.png)
+![Pipelines Demo](pipeline.png)
 
 ## 5. History Management
 
