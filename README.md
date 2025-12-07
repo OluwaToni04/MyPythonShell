@@ -98,4 +98,4 @@ search "python oop tutorial"
 
 > *Screenshot shows the resulting Google Search page opening.*
 
-![Browser Result](search_browser.png)
+![Browser Result](search_result.png)
