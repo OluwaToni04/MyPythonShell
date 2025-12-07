@@ -78,7 +78,7 @@ The shell persists command history to a file (defined by `HISTFILE`) so sessions
 
 > *Screenshot shows listing history, writing it to a file, and verifying the file content.*
 
-![History Management Demo](history_mgmt.png)
+![History Management Demo](history_mana.png)
 
 ## 6. Automation: Web Search
 
@@ -93,7 +93,7 @@ search "python oop tutorial"
 
 > *Screenshot shows the shell parsing the query and triggering the browser.*
 
-![Search CLI Output](search_cli.png)
+![Search CLI Output](search_cil.png)
 
 **Visual Demo (Browser):**
 
