@@ -54,3 +54,49 @@ This is the most complex feature. The shell chains multiple processes together, 
 **Example Command:**
 ```bash
 echo -e "apple\nbanana\ncherry" | grep "a" | wc -l
+**Visual Demo:**
+
+> *Screenshot shows the shell processing data through three distinct stages to calculate a final count.*
+
+![Pipelines Demo](pipelines.png)
+
+## 5. History Management
+
+The shell persists command history to a file (defined by `HISTFILE`) so sessions are not lost.
+
+**Features:**
+
+* `history`: List all commands with indices.
+
+* `history -w <file>`: Write current session to a specific file.
+
+* `history -a <file>`: Append new commands to a specific file.
+
+* `history -r <file>`: Read history from a specific file.
+
+**Visual Demo:**
+
+> *Screenshot shows listing history, writing it to a file, and verifying the file content.*
+
+![History Management Demo](history_mgmt.png)
+
+## 6. Automation: Web Search
+
+To demonstrate extensibility, a custom `search` command was added. This allows users to Google search directly from the terminal, triggering the OS's default web browser.
+
+**Command:**
+
+search "python oop tutorial"
+
+
+**Visual Demo (Terminal):**
+
+> *Screenshot shows the shell parsing the query and triggering the browser.*
+
+![Search CLI Output](search_cli.png)
+
+**Visual Demo (Browser):**
+
+> *Screenshot shows the resulting Google Search page opening.*
+
+![Browser Result](search_browser.png)
