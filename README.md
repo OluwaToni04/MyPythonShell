@@ -44,7 +44,7 @@ The shell manually manages file descriptors to redirect streams, allowing users 
 **Visual Demo:**
 > *Screenshot shows creating a file via echo, reading it back with cat, and capturing a "file not found" error log.*
 
-![IO Redirection Demo](io_redirection.png)
+![IO Redirection Demo](redirection_Io.png)
 
 ---
 
